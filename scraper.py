@@ -10,11 +10,6 @@ XPATH_TITLE = '//div[@class="mb-auto"]/h2/a/text()'
 XPATH_SUMMARY = '//div[@class="lead"]/p/text()'
 XPATH_BODY = '//div[@class="html-content"]/p[not(@class)]/text()'
 
-#XPATH_LINK_TO_ARTICLE = '//text-fill[not(@class)]/a/@href'
-#XPATH_TITLE = '//div[@class="mb-auto"]/h2/a/text()'
-#XPATH_SUMMARY = '//div[@class="wrap-post col-9"]/div/div[@class="lead"]/p/text()'
-#XPATH_BODY = '//div[@class="html-content"]/p[not(@class)]/text()'
-
 def get_title(link):
     #separamos por "/" y nos quedamos con el ultimo que elemento 
     url = link.split('/')[-1]
